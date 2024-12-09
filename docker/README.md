@@ -10,6 +10,11 @@ Starts in the service, detach and return to terminal prompt.
 docker compose up --detach
 ```
 
+## Restart WireMock
+```shell
+docker compose restart
+```
+
 # Links
 * List of all mappings: http://localhost:8080/__admin/mappings
 * Mapping created from [static-endpoint.json](mappings/mappings.json): http://localhost:8080/static-endpoint
