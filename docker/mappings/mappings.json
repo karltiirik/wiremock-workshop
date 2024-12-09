@@ -1,0 +1,30 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "/static-endpoint"
+      },
+      "response": {
+        "status": 200,
+        "body": "Static Response",
+        "headers": {
+          "Content-Type": "text/plain"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/file-response-endpoint"
+      },
+      "response": {
+        "status": 200,
+        "bodyFileName": "response.json",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    }
+  ]
+}

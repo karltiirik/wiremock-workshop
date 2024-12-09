@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "data": {
+    "id": 123,
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "roles": [
+      "user",
+      "admin"
+    ]
+  },
+  "message": "Data retrieved successfully"
+}
