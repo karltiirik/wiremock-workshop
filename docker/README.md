@@ -27,6 +27,7 @@ docker compose down
 * File contents served: http://localhost:8080/file-response-endpoint
 * Admin API OpenAPI description: https://wiremock.org/docs/standalone/admin-api-reference/
   * The OpenAPI specification can be downloaded and imported into Postman/Hoppscotch to try out Admin API functionality 
+* View specification locally: http://localhost:8080/__admin/docs
 
 # Adding new mapping through WireMock Admin API
 Create mapping
